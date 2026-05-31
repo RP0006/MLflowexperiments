@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+myvenv/
+env/
+.venv/
+
+# Conda
+.conda/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Data files (optional)
+data/
+artifacts/
+
+# Secrets
+credentials.json
+config.json
+secrets.json
